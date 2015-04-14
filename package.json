@@ -1,0 +1,32 @@
+{
+  "name": "torrent-name",
+  "version": "0.1.0",
+  "description": "torrent title humanize",
+  "bin": {
+    "torrent-name": "./bin/torrent-name.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayhankuru/torrent-name"
+  },
+  "keywords": [
+    "torrent",
+    "tvshow",
+    "clear",
+    "humanize"
+  ],
+  "author": "Ayhan Kuru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayhankuru/torrent-name/issues"
+  },
+  "homepage": "https://github.com/ayhankuru/torrent-name",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "parse-torrent-name": "^0.5.4"
+  }
+}
